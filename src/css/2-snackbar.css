@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+form > label {
+  display: flex;
+  flex-direction: column;
+}
+
+input[name='delay'] {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  width: 240px;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #27292b;
+}
+
+fieldset {
+  box-sizing: border-box;
+  width: 240px;
+  margin: 10px 0;
+}
+
+button[type='submit'] {
+  width: 240px;
+  height: 30px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #27292b;
+  background-color: #395ebf;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+button[type='submit']:hover {
+  background-color: #191970;
+}
